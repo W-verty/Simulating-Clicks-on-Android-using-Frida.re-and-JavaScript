@@ -1,8 +1,8 @@
+---
 ## Simulating Clicks on Android using Frida.re and JavaScript
 
 This project presents a solution for simulating clicks on Android devices using the powerful tool Frida.re in conjunction with JavaScript. The ability to simulate touch interactions is crucial in many automation and testing scenarios, and this code provides an effective approach to achieve this goal.
 
----
 ### Code Overview
 The code is organized in a class named `BuilderSimulationClick`, which encapsulates all the logic required to create and manipulate user interface (UI) elements and generate simulated touch events.
 
