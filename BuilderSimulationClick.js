@@ -1,8 +1,8 @@
 function getMainActivity() {
-    let activityThread = Java.use("android.app.ActivityThread").sCurrentActivityThread.value;
-    let mActivities = activityThread.mActivities.value
+	let activityThread = Java.use("android.app.ActivityThread").sCurrentActivityThread.value;
+	let mActivities = activityThread.mActivities.value
 	let activityClientRecord = Java.cast(mActivities.valueAt(0), Java.use("android.app.ActivityThread$ActivityClientRecord"))
-    return activityClientRecord.activity.value
+	return activityClientRecord.activity.value
 }
 
 class BuilderSimulationClick {
